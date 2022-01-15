@@ -15,7 +15,7 @@ def get_progression(begin, adder):
             next_num = '..'
         return_str = '{} {}'.format(return_str, next_num)
         i = i + 1
-    return (return_str, hide_num)
+    return (return_str.strip(), hide_num)
 
 
 def has_win_game():
