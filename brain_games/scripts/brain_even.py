@@ -4,7 +4,8 @@ from brain_games.cli import welcome_user
 
 
 def main():
-    name = welcome_user()
+    welcome_user()
+    name = get_name()
     if has_win_game():
         print('Congratulations, {}!'.format(name))
     else:
