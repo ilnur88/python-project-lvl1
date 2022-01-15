@@ -20,7 +20,7 @@ def get_gcd(num1, num2):
 
 
 def has_win_game():
-    print('What is the result of the expression?')
+    print('Find the greatest common divisor of given numbers.')
     i = 0
     while i < games.ROUND_COUNT:
         num1 = games.generate_random_number()
