@@ -6,4 +6,5 @@
 
 [![Linter](https://github.com/ilnur88/python-project-lvl1/actions/workflows/linter.yml/badge.svg)](https://github.com/ilnur88/python-project-lvl1/actions/workflows/linter.yml)
 
-[Asciinema](https://asciinema.org/a/461928)
+[GameEven](https://asciinema.org/a/461928)
+[GameCalc](https://asciinema.org/a/461945)
