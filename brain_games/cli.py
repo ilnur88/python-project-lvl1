@@ -2,7 +2,7 @@ import prompt
 
 
 def welcome_user():
-    print('Welcome to Brain Games!')
+    print('Welcome to the Brain Games!')
 
 
 def get_name():
