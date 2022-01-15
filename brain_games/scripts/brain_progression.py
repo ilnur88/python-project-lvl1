@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 from brain_games.games.progression_game import has_win_game
-from brain_games.cli import welcome_user
+from brain_games.cli import welcome_user, get_name
 
 
 def main():
-    name = welcome_user()
+    welcome_user()
+    name = get_name()
     if has_win_game():
         print('Congratulations, {}!'.format(name))
     else:

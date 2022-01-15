@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from brain_games.games.even_game import has_win_game
-from brain_games.cli import welcome_user
+from brain_games.cli import welcome_user, get_name
 
 
 def main():
